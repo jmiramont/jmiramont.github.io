@@ -5,4 +5,6 @@
 layout: home
 ---
 
-![JMM](foto.jpg)
+<!-- ![JMM](foto.jpg) -->
+
+<img src="foto.jpg" alt="drawing" width="200"/>
