@@ -7,4 +7,4 @@ layout: home
 
 <!-- ![JMM](foto.jpg) -->
 
-<img src="foto.jpg" alt="drawing" width="200"/>
+<img src="_assets/foto.jpeg" alt="drawing" width="200"/>
