@@ -1,0 +1,60 @@
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
+export default function PersonalWebsite() {
+  return (
+    <main className="max-w-4xl mx-auto p-6 space-y-8">
+      <section className="text-center space-y-2">
+        <h1 className="text-4xl font-bold">Your Name</h1>
+        <p className="text-lg text-gray-600">
+          Short text about yourself goes here. Mention your background, interests, and what you do.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">CV</h2>
+        <Card>
+          <CardContent className="p-4">
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+              Download my CV (PDF)
+            </a>
+          </CardContent>
+        </Card>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Publications</h2>
+        <ul className="list-disc list-inside space-y-2">
+          <li>Publication Title 1 – Journal/Conference, Year</li>
+          <li>Publication Title 2 – Journal/Conference, Year</li>
+          <li>Publication Title 3 – Journal/Conference, Year</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Blog</h2>
+        <ul className="space-y-4">
+          <li>
+            <Card>
+              <CardContent className="p-4">
+                <h3 className="text-xl font-semibold">Blog Post Title 1</h3>
+                <p className="text-gray-700">A short summary of the blog post content.</p>
+                <Button className="mt-2" variant="link">Read More</Button>
+              </CardContent>
+            </Card>
+          </li>
+          <li>
+            <Card>
+              <CardContent className="p-4">
+                <h3 className="text-xl font-semibold">Blog Post Title 2</h3>
+                <p className="text-gray-700">A short summary of the blog post content.</p>
+                <Button className="mt-2" variant="link">Read More</Button>
+              </CardContent>
+            </Card>
+          </li>
+        </ul>
+      </section>
+    </main>
+  );
+}
