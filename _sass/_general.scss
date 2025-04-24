@@ -43,3 +43,27 @@ footer {
 .footer-container a:hover {
   color: #000; /* Darker color on hover */
 }
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly; /* Distribute items evenly with equal spacing */
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px 0; /* Add some padding for spacing */
+  background-color: #5aa1d1; /* Optional: Add a light background color */
+}
+
+.nav-container h2 {
+  margin: 0; /* Remove default margin for the heading */
+  font-size: 1.5em; /* Adjust font size */
+}
+
+.nav-container a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+  font-size: 1.2em; /* Adjust font size */
+}
+
+.nav-container a.active-page {
+  font-weight: bold; /* Highlight the active page */
+  color: #007bff; /* Optional: Add a different color for the active page */
+}

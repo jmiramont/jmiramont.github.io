@@ -6,16 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="header" id="myHeader">
-        <h2>Juan Manuel Miramont 
-        <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a>
-        <a href="/publications" {% if page.title == "Publications" %}class="active-page"{% endif %}>Publications</a>
-        <a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a>  
-
-        <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </div>
+        <div class="nav-container">
+            <h2>Juan Manuel Miramont</h2>
+            <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a>
+            <a href="/publications" {% if page.title == "Publications" %}class="active-page"{% endif %}>Publications</a>
+            <a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a>
+        </div>
+    </div>
 
     <title>{{ page.title }} - {{ site.title }}</title>
 </head>
