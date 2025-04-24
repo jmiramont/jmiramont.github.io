@@ -1,5 +1,5 @@
 # This workflow run the script "run_this_benchmark.py"
-name: Run benchmarks
+name: Update publications
 
 on: workflow_dispatch
 
@@ -56,7 +56,7 @@ jobs:
         run: |
           git config --local user.email "MeBot@github.com"
           git config --local user.name "MeBot"
-          git add results --all
-          git commit -m "Add changes" -a
+          git add _data/publications.json --all
+          git commit -m "Updating publications." -a
           git push origin main
           
