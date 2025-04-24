@@ -13,7 +13,7 @@ permalink: / # We use this because we moved the site to _sites
 
   <div class="imageflexcontent" style="width: 1200px;">
     <p>I'm a signal processer doing data analysis (or maybe the other way around...).</p>
-    <p>I am mostly interested in the intersection of classical approaches to signal processing like the short-time Fourier transform, wavelets, and syncrhosqueezing with more modern techniques like deep learning and topological data analysis.</p>
+    <p>I am mostly interested in the intersection of classical approaches to signal processing, like the short-time Fourier transform, wavelets, and synchrosqueezing, with more modern techniques like deep learning and topological data analysis.</p>
     <p>Currently working as a postdoctoral researcher in the Sigma team at CRIStAL with <a href="https://rbardenet.github.io/">Rémi Bardenet</a>.</p>
   </div>
 </div>
