@@ -1,0 +1,45 @@
+// * {
+//     box-sizing: border-box;
+//     margin: 500;
+//     padding: 500;
+//   }
+  
+body {
+  max-width: 1200px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Add some padding for smaller screens */
+  font-family: Arial, sans-serif; /* Optional: Set a font for better readability */
+}
+
+main.page-content {
+  text-align: justify; /* Optional: Adjust text alignment */
+}
+
+  .header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: #5aa1d1;
+    color: #f1f1f1;
+  }
+
+.imageflex { display: flex; }
+.imageflexcontent { margin-left: 5px; margin-top: 0; }
+
+footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px; /* Add padding around the footer */
+  text-align: center; /* Center the text */
+  border-top: 1px solid #ddd; /* Add a top border to separate it */
+  margin-top: 20px; /* Add space above the footer */
+}
+
+.footer-container a {
+  margin-left: 10px; /* Add spacing between the email and GitHub icon */
+  color: #555; /* Match the text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-container a:hover {
+  color: #000; /* Darker color on hover */
+}
