@@ -5,5 +5,7 @@ publications = fetch_all_publications('1jBAOUoAAAAJ')
 # _publications('1jBAOUoAAAAJ')
 
 import json
-with open('publications.json', 'w') as f:
+import os
+filename = os.path.join('_data','publications.json')
+with open(filename, 'w') as f:
     json.dump(publications, f)
