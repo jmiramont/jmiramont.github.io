@@ -1,7 +1,8 @@
-from scholarly_publications import ScholarlyPublications
+from scholarly_publications.fetcher import fetch_all_publications
 
-scholar = ScholarlyPublications()
-publications = scholar.get_publications('your_google_scholar_id_here')
+# scholar = ScholarlyPublications()
+publications = fetch_all_publications('1jBAOUoAAAAJ')
+# _publications('1jBAOUoAAAAJ')
 
 import json
 with open('publications.json', 'w') as f:
