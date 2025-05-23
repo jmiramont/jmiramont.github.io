@@ -50,7 +50,7 @@ jobs:
 
       - name: Run the Benchmark
         run: |
-          poetry run python get_pubs.py
+          poetry run python get_pubs_2.py
 
       - name: Commit and push files
         run: |
