@@ -1,0 +1,144 @@
+[
+    {
+        "title": "Voice jitter estimation using high-order synchrosqueezing operators",
+        "pub_year": 2020,
+        "citation": "IEEE/ACM Transactions on Audio, Speech, and Language Processing 29, 527-536, 2020",
+        "author": "Juan M Miramont and Marcelo A Colominas and Gast\u00f3n Schlotthauer",
+        "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+        "volume": "29",
+        "pages": "527-536",
+        "publisher": "IEEE",
+        "abstract": "Voice jitter is defined as a random perturbation of the glottal cycle duration which can be useful for voice parametrization and that usually depends on finding fiducial points in this signal. In this paper, a novel application of the Fourier-based high-order synchrosqueezing (FSSTN) operators on voice signals is introduced for voice jitter estimation without period-segmentation. To this end, an innovative interpretation of the relative jitter formula in terms of the total variation of the sequence of periods is proposed. This allows us to derive an algorithm for jitter estimation that uses the (continuous) instantaneous fundamental frequency of the signal and its first derivative (chirp rate) which can be obtained, respectively, from the local complex frequency and the local complex modulation FSSTN operators. Numerical experiments using synthetic signals with known true jitter show that this novel approach yields similar results to \u2026"
+    },
+    {
+        "title": "Unsupervised classification of the spectrogram zeros with an application to signal detection and denoising",
+        "pub_year": 2024,
+        "citation": "Signal Processing 214, 109250, 2024",
+        "author": "Juan M Miramont and Fran\u00e7ois Auger and Marcelo A Colominas and Nils Laurent and Sylvain Meignen",
+        "journal": "Signal Processing",
+        "volume": "214",
+        "pages": "109250",
+        "publisher": "Elsevier",
+        "abstract": "Spectrogram zeros, originated by the destructive interference between the components of a signal in the time\u2013frequency plane, have proven to be a relevant feature to describe the time-varying frequency structure of a signal. In this work, we first introduce a classification of the spectrogram zeros in three classes that depend on the nature of the components that interfere to produce them. Then, we describe an algorithm to classify these points in an unsupervised way, based on the analysis of the stability of their location with respect to additive noise. Finally, potential uses of the classification of zeros of the spectrogram for signal detection and denoising are investigated, and compared with other methods on both synthetic and real-world signals."
+    },
+    {
+        "title": "Voice signal typing using a pattern recognition approach",
+        "pub_year": 2022,
+        "citation": "Journal of voice 36 (1), 34-42, 2022",
+        "author": "Juan Manuel Miramont and Juan F Restrepo and J Codino and C Jackson-Menaldi and Gaston Schlotthauer",
+        "journal": "Journal of voice",
+        "volume": "36",
+        "number": "1",
+        "pages": "34-42",
+        "publisher": "Mosby",
+        "abstract": "Voice signal classification in three types according to their degree of periodicity, a task known as signal typing, is a relevant preprocessing step before computing any perturbation measures. However, it is a time consuming and subjective activity. This has given rise to interest in automatic systems that use objective measures to distinguish among the different signal types. The purpose of this paper is twofold. First, to propose a pattern recognition approach for automatic voice signal typing based on a multi-class linear Support Vector Machine, and using rather well-known parameters like Jitter, Shimmer, Harmonic-to-Noise Ratio, and Cepstral Prominence Peak in combination with nonlinear dynamics measures. Two novel features are also proposed as objective parameters. Second, to validate this approach using a large amount of signals coming from two well-known corpora using cross-dataset experiments to \u2026"
+    },
+    {
+        "title": "A public benchmark for denoising and detection methods",
+        "pub_year": 2022,
+        "citation": "XXVIII\u00e8me Colloque Francophone du GRETSI, 1-4, 2022",
+        "author": "Juan M Miramont and R\u00e9mi Bardenet and Pierre Chainais and Fran\u00e7ois Auger",
+        "conference": "XXVIII\u00e8me Colloque Francophone du GRETSI",
+        "pages": "1-4",
+        "abstract": "Dans cet article, un benchmark en libre acc\u00e8s pour les m\u00e9thodes de d\u00e9bruitage et de d\u00e9tection de signaux est pr\u00e9sent\u00e9. L'objectif de cet outil est d'\u00e9tablir un cadre commun pour comparer les m\u00e9thodes, sur la base d'un grand nombre de signaux et d'outils d'interpr\u00e9tation des r\u00e9sultats. Les auteurs de nouvelles m\u00e9thodes pourraient b\u00e9n\u00e9ficier d'un moyen de comparer leur approche avec les pr\u00e9c\u00e9dentes, ainsi que de d\u00e9couvrir les avantages et les inconv\u00e9nients de leurs propres m\u00e9thodes. Deux exemples d'utilisation sont fournis, comparant les m\u00e9thodes bas\u00e9es sur les z\u00e9ros du spectrogramme aux m\u00e9thodes bas\u00e9es sur les maxima locaux du spectrogramme, et estimant la puissance statistique des tests de d\u00e9tection."
+    },
+    {
+        "title": "Benchmarking multi-component signal processing methods in the time-frequency plane",
+        "pub_year": 2024,
+        "citation": "arXiv preprint arXiv:2402.08521, 2024",
+        "author": "Juan M Miramont and R\u00e9mi Bardenet and Pierre Chainais and Francois Auger",
+        "journal": "arXiv preprint arXiv:2402.08521",
+        "abstract": "Signal processing in the time-frequency plane has a long history and remains a field of methodological innovation. For instance, detection and denoising based on the zeros of the spectrogram have been proposed since 2015, contrasting with a long history of focusing on larger values of the spectrogram. Yet, unlike neighboring fields like optimization and machine learning, time-frequency signal processing lacks widely-adopted benchmarking tools. In this work, we contribute an open-source, Python-based toolbox termed MCSM-Benchs for benchmarking multi-component signal analysis methods, and we demonstrate our toolbox on three time-frequency benchmarks. First, we compare different methods for signal detection based on the zeros of the spectrogram, including unexplored variations of previously proposed detection tests. Second, we compare zero-based denoising methods to both classical and novel methods based on large values and ridges of the spectrogram. Finally, we compare the denoising performance of these methods against typical spectrogram thresholding strategies, in terms of post-processing artifacts commonly referred to as musical noise. At a low level, the obtained results provide new insight on the assessed approaches, and in particular research directions to further develop zero-based methods. At a higher level, our benchmarks exemplify the benefits of using a public, collaborative, common framework for benchmarking."
+    },
+    {
+        "title": "Emulating perceptual evaluation of voice using scattering transform based features",
+        "pub_year": 2022,
+        "citation": "IEEE/ACM Transactions on Audio, Speech, and Language Processing 30, 1892-1901, 2022",
+        "author": "Juan Manuel Miramont and Marcelo Alejandro Colominas and Gast\u00f3n Schlotthauer",
+        "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+        "volume": "30",
+        "pages": "1892-1901",
+        "publisher": "IEEE",
+        "abstract": "Voice health is traditionally assessed by methods that rely on the perception of a clinician, who integrates auditory and visual cues in order to reach a conclusion about the voice under evaluation. However, these tasks suffer from inter-professional variability due to its subjective nature, which is why more objective, computational-based methods are of interest. Two examples of such subjective tasks are the classification of voices in three types according to their periodicity, also termed voice typing, and the evaluation of six aspects of voice quality by means of the consensus auditory-perceptual evaluation of voice (CAPE-V) protocol. In this paper, two approaches to emulate each of those tasks are introduced, based on simple features extracted from scattering transform coefficients and support vector machines. Firstly, a system for automatic voice typing was trained and its classification performance was evaluated for \u2026"
+    },
+    {
+        "title": "Benchmarks of multi-component signal analysis methods",
+        "pub_year": 2023,
+        "citation": "2023 31st European Signal Processing Conference (EUSIPCO), 1783-1787, 2023",
+        "author": "Juan M Miramont and Quentin Legros and Dominique Fourer and Fran\u00e7ois Auger",
+        "conference": "2023 31st European Signal Processing Conference (EUSIPCO)",
+        "pages": "1783-1787",
+        "publisher": "IEEE",
+        "abstract": "Non-stationary multicomponent signals are ubiquitous in real-world applications. They can be modeled as a super-imposition of amplitude- and frequency-modulated components so-called the modes, which require dedicated techniques to be efficiently analyzed and disentangled. State-of-the-art methods use specific assumptions and paradigms which can produce very different results in specific use cases. Hence, this paper aims to present and discuss the advantages and the limitations of several promising recent approaches respectively applied to signal denoising, mode retrieval and instantaneous frequency estimation through a comparative evaluation benchmark. Our numerical experiments show the specific scenarios where each method is the more adapted in terms of quality of mode separation and reconstruction while also considering the computational efficiency."
+    },
+    {
+        "title": "A novel approach based on Vorono\u00ef cells to classify spectrogram zeros of multicomponent signals",
+        "pub_year": 2023,
+        "citation": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and \u2026, 2023",
+        "author": "Nils Laurent and Sylvain Meignen and Marcelo Alejandro Colominas and Juan Manuel Miramont and Francois Auger",
+        "conference": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "pages": "1-5",
+        "publisher": "IEEE",
+        "abstract": "In this paper, we propose a novel approach to classify the spectrogram zeros (SZs) of multicomponent signals based on the analysis of the Vorono\u00ef cells associated with these zeros. More precisely, the characterization of the distribution of the spectrogram maxima of a complex white Gaussian noise along the edges of the Vorono\u00ef cells associated with SZs enables us to derive an algorithm to classify the different types of zeros present in the spectrogram of a multicomponent signal. Numerical applications on simulated signals confirm the relevance of the proposed classification algorithm, and an illustration on a real signal concludes the paper."
+    },
+    {
+        "title": "Procesamiento, an\u00e1lisis y modelado de se\u00f1ales biom\u00e9dicas: un enfoque integrador",
+        "pub_year": 2023,
+        "citation": "Ciencia, Docencia y Tecnolog\u00eda Suplemento 13 (14), 2023",
+        "author": "Gast\u00f3n Schlotthauer and Marcelo A Colominas and Gabriel A Alzamendi and Juan F Restrepo and Ramiro Casal and Juan M Miramont and Marina C Cuaranta and Jonathan JC Nicolet",
+        "journal": "Ciencia, Docencia y Tecnolog\u00eda Suplemento",
+        "volume": "13",
+        "number": "14",
+        "abstract": "Este proyecto se centra en el estudio, desarrollo y aplicaci\u00f3n de t\u00e9cnicas de procesamiento, modelado y an\u00e1lisis de se\u00f1ales que permitan abordar los casos de se\u00f1ales biom\u00e9dicas. Abordaremos m\u00e9todos adaptativos de an\u00e1lisis de se\u00f1ales, principalmente la descomposici\u00f3n emp\u00edrica en modos y sus variantes. Se avanzar\u00e1 en el desarrollo de modelos de las se\u00f1ales relacionadas con el aparato fonador. Se continuar\u00e1 el estudio de modelos en espacio de estados que permiten extraer informaci\u00f3n sobre el estado instant\u00e1neo del tracto vocal y de la fuente gl\u00f3tica. Se estudiar\u00e1 la factibilidad de extraer nuevos par\u00e1metros ac\u00fasticos de utilidad cl\u00ednica. Investigaremos t\u00e9cnicas y herramientas provenientes de la teor\u00eda de la informaci\u00f3n estudiando medidas basadas en la integral de correlaci\u00f3n asistida por ruido y la integral de correlaci\u00f3n U, propuestas por nuestro grupo, para la estimaci\u00f3n de los invariantes dimensi\u00f3n, entrop\u00eda y ruido, en sistemas simulados y reales de variadas dimensiones. Finalmente, se continuar\u00e1 con la formaci\u00f3n de recursos humanos, a trav\u00e9s de la realizaci\u00f3n de becas postdoctorales y doctorales CONICET, y el fortalecimiento de un grupo de investigaci\u00f3n en el \u00e1rea de las TICs en el procesamiento de se\u00f1ales biom\u00e9dicas, en el contexto del Instituto de Bioinform\u00e1tica y Bioingenier\u00eda en v\u00edas de creaci\u00f3n."
+    },
+    {
+        "title": "Adaptive hyperparameter tuning for time-frequency algorithms based on the zeros of the spectrogram",
+        "pub_year": 2025,
+        "citation": "23rd IEEE Statistical Signal Processing Workshop, 2025",
+        "author": "Juan Manuel Miramont and R\u00e9mi Bardenet and Pierre Chainais and Fran\u00e7ois Auger",
+        "conference": "23rd IEEE Statistical Signal Processing Workshop",
+        "abstract": "It is well known that the zeros of the spectrogram of white Gaussian noise are homogeneously distributed in the time-frequency (TF) plane. When a signal is present, large holes are created in this pattern. Recently, several methods have been proposed to detect and use them as masks for signal reconstruction. Yet, no systematic studies for tuning their hyperparameters on real data have been conducted. We investigate one key hyperparameter, the interaction scale r0, intuitively corresponding to the radius of a hole caused by a well-localized signal in the TF plane. We benchmark adaptive tuning protocols for r0 from the spatial statistics literature, which take as input simulated noise realizations and the actual data. We use non-Gaussian noise, audio signals, and the reconstruction performance is assessed with audio quality metrics. Results show that tuning strategies can depend both on the protocol and the data, highlighting the importance of benchmarking such approaches"
+    },
+    {
+        "title": "Filtering through a topological lens: homology for point processes on the time-frequency plane",
+        "pub_year": 2025,
+        "citation": "arXiv preprint arXiv:2504.07720, 2025",
+        "author": "Juan Manuel Miramont and Kin Aun Tan and Soumendu Sundar Mukherjee and R\u00e9mi Bardenet and Subhroshekhar Ghosh",
+        "journal": "arXiv preprint arXiv:2504.07720",
+        "abstract": "We introduce a very general approach to the analysis of signals from their noisy measurements from the perspective of Topological Data Analysis (TDA). While TDA has emerged as a powerful analytical tool for data with pronounced topological structures, here we demonstrate its applicability for general problems of signal processing, without any a-priori geometric feature. Our methods are well-suited to a wide array of time-dependent signals in different scientific domains, with acoustic signals being a particularly important application. We invoke time-frequency representations of such signals, focusing on their zeros which are gaining salience as a signal processing tool in view of their stability properties. Leveraging state-of-the-art topological concepts, such as stable and minimal volumes, we develop a complete suite of TDA-based methods to explore the delicate stochastic geometry of these zeros, capturing signals based on the disruption they cause to this rigid, hyperuniform spatial structure. Unlike classical spatial data tools, TDA is able to capture the full spectrum of the stochastic geometry of the zeros, thereby leading to powerful inferential outcomes that are underpinned by a principled statistical foundation. This is reflected in the power and versatility of our applications, which include competitive performance in processing. a wide variety of audio signals (esp. in low SNR regimes), effective detection and reconstruction of gravitational wave signals (a reputed signal processing challenge with non-Gaussian noise), and medical time series data from EEGs, indicating a wide horizon for the approach and methods introduced in this paper."
+    },
+    {
+        "title": "Unsupervised classification of the spectrogram zeros",
+        "pub_year": 2022,
+        "citation": "arXiv preprint arXiv:2210.05459, 2022",
+        "author": "Juan M Miramont and Fran\u00e7ois Auger and Marcelo A Colominas and Nils Laurent and Sylvain Meignen",
+        "journal": "arXiv preprint arXiv:2210.05459",
+        "abstract": "The zeros of the spectrogram have proven to be a relevant feature to describe the time-frequency structure of a signal, originated by the destructive interference between components in the time-frequency plane. In this work, a classification of these zeros in three types is introduced, based on the nature of the components that interfere to produce them. Echoing noise-assisted methods, a classification algorithm is proposed based on the addition of independent noise realizations to build a 2D histogram describing the stability of zeros. Features extracted from this histogram are later used to classify the zeros using a non-supervised clusterization algorithm. A denoising approach based on the classification of the spectrogram zeros is also introduced. Examples of the classification of zeros are given for synthetic and real signals, as well as a performance comparison of the proposed denoising algorithm with another zero-based approach."
+    },
+    {
+        "title": "A public benchmark for denoising and detection methods",
+        "pub_year": 2022,
+        "citation": "",
+        "author": "M MIRAMONT Juan and R\u00e9mi BARDENET and Pierre CHAINAIS and Fran\u00e7ois AUGER",
+        "abstract": "In this article, a public benchmark for signal denoising and signal detection methods is introduced. The aim of this tool is to establish a common framework to compare methods, on the basis of a large number of signals and tools for interpreting the results. Authors of new methods could benefit from having a way to compare their approach with previous ones, as well as discover advantages and disadvantages of their own methods. Two examples of use are provided, comparing methods based on zeros of the spectrogram against methods based on the local maxima of the spectrogram, and estimating the statistical power of detection tests."
+    },
+    {
+        "title": "The 13th International Conference on Advances in Quantitative Laryngology, Voice and Speech Research (June 2\u20134, 2019, Montreal, Quebec, Canada)",
+        "pub_year": 2019,
+        "citation": "Applied Sciences 9 (13), 2665, 2019",
+        "author": "Luc Mongeau",
+        "volume": "9",
+        "number": "13",
+        "pages": "2665",
+        "publisher": "MDPI",
+        "abstract": "The 13th International Conference on Advances in Quantitative Laryngology, Voice and Speech Research (AQL 2019) will be held in Montreal, Canada, 3\u20134 June 2019. Pre-conference workshops will be held on 2 June 2019. The conference and workshops provide a unique opportunity for partnership and collaboration in the advancement of quantitative methods for the measurement and modelling of voice and speech. The AQL accomplishes this mandate by facilitating an interprofessional scientific conference and training intended for an international community of otolaryngologists, speech\u2013language pathologists and voice scientists. With a continued drive toward advancements in translational and clinical voice science, the AQL has rapidly expanded over the past 20 years, from a forum of 15 European member laboratories to a globally recognized symposium, connecting over 100 delegates from across the world."
+    },
+    {
+        "title": "Automatic Classification of Sustained Vowels Based on Signal Regularity Measures",
+        "pub_year": 2019,
+        "citation": "Sociedad Argentina de Bioingenier\u00eda, 2019",
+        "author": "Juan Manuel Miramont and Gaston Schlotthauer",
+        "publisher": "Sociedad Argentina de Bioingenier\u00eda",
+        "abstract": "En el an\u0303o 1995 Ingo Titze propuso un sistema de clasificacio\u0301n de fonemas voca\u0301licos en tres tipos (Tipo I,Tipo II y Tipo III) en base a la regularidad de la sen\u0303al de voz cuasiperio\u0301dica correspondiente. En la pra\u0301ctica cl\u0131\u0301nica fonoaudiolo\u0301gica, esta clasificacio\u0301n se realiza en base a la inspeccio\u0301n visual de espectrogramas, no siendo claros los criterios que diferencian un tipo de voz de otra, especialmente entre los tipos I y II. En consecuencia, existe una granvariacio\u0301n interprofesional y una fuerte dependencia de la experiencia de cada especialista. Con el fin de lograr una clasificacio\u0301n objetiva basada en para\u0301metros cuantitativos, se busco\u0301 extraer caracter\u0131\u0301sticas capaces de representar las diferencias fundamentales entre las voces de Tipos I y II, para luego clasificar una base de datos anotada. Se extrajeron para\u0301metros acu\u0301sticos cla\u0301sicos, como medidas de Jitter y Shimmer, y harmonics to noise ratio (HNR) calculados utilizando PRAAT. Tambie\u0301n se propuso la utilizacio\u0301n de la amplitud del primer ramo\u0301nico (R1) y dos caracter\u0131\u0301sticas ideadas porlos autores de este trabajo: varianza normalizada de la primera componente principal (VNCP) y razones pico-valle (PV) espectrales. La clasificacio\u0301n se realizo\u0301 mediante ma\u0301quinas de soporte vectorial (SVM) de kernel lineal utilizando las caracter\u0131\u0301sticas que minimizan el error del clasificador. Como resultado, se obtuvo un error de validacio\u0301n cruzada de 11.61%, con porcentajes de acierto del 93.24% y 83.95%, para voces Tipo I y Tipo II respectivamente."
+    }
+]
